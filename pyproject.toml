@@ -1,0 +1,15 @@
+[project]
+name = "face-emotion-detector"
+version = "0.2.0"
+description = "Real-time facial emotion detection (Happy/Sad/Neutral) using MediaPipe Tasks API and OpenCV"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "opencv-python>=4.8.0",
+    "mediapipe>=0.10.14",
+    "numpy>=1.24.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
