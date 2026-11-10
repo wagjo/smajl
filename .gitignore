@@ -1,3 +1,4 @@
 face_landmarker.task
 face_emotions_detector*
 /src/face_emotion_detector.egg-info/
+/hand_landmarker.task
